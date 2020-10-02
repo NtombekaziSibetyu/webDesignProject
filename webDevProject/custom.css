@@ -1,0 +1,70 @@
+* {box-sizing:border-box}
+/*navbar styles*/
+.navbar {
+    margin: 0;
+    padding: 0.5px;
+    list-style-type: none;
+    flex-direction: row;
+    background-color: #000000;
+}
+.navbar head {
+    display: inline-block;
+    text-decoration: aqua;
+    margin-left: 0;
+    
+}
+.navbar ul{
+    display: block;
+    top: 0;
+    width: 100%;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    color: lightgrey;
+    text-decoration: none;
+    padding: 2px;
+}
+.navbar li i{
+    color: lightgrey;
+    padding: 2px;
+}
+.navbar li fas fa-bars fa-2x{
+    align-items: stretch;
+}
+.navbar li a:hover{
+    color: darkgrey;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    background: cyan;
+    margin: 1px;
+    flex: 0 1 24%;
+}
+
+.card-img {
+    height: 200px;
+}
+
+.close {
+    float: right;
+} 
+
+
+
+.footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #9984D9;
+}
+.footer i{
+    justify-content: space-between;
+    align-items: center;
+    float: inline-end;
+}

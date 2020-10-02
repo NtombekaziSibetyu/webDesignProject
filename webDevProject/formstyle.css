@@ -1,0 +1,31 @@
+.navbar{
+    margin: 0;
+    padding: 1px;
+    background-color: black;
+    list-style-type: none;
+    flex-direction: row;
+}
+.nav-header{
+    margin-left: 0;
+    display: inline-block;
+}
+.navbar ul{
+    display: block;
+    width: 100%;
+    top: 0;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a {
+    color: lightgrey;
+    text-decoration: none;
+    padding: 2px;
+}
+.navbar li a:hover{
+    color: darkgrey;
+}
+.navbar li i{
+    color: lightgrey;
+    padding: 2;
+}

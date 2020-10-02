@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+        crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="formstyle.css">
+
+        
+        <title>New user</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <h2 class="nav-header">Create employee profile</h2>
+            <ul>
+                <li><i class="fas fa-home"></i></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="project.html">Go Back</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <form action="/action/" class="needs-validation">
+                <div class="form-group">
+
+                </div>
+                <div class="form-group">
+                    <label for="firstName">First name:</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Type in firstname" name="firstName" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Type in last name" name="lastName" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@mai.com" name="email" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div class="form-group">
+                    <label for="cell">Cellphone</label>
+                    <input type="text" class="form-control" id="cell" placeholder="cell" name="cell" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div class="form-group">
+                    <label for="tel">Landline</label>
+                    <input type="tel" class="form-control" id="tel" 
+                    placeholder="Enter tell number" name="tel" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <h6>More personal and next of kin details</h6>
+                <div class="form-group">
+                    <label for="address">Home address:</label>
+                    <input type="text" class="form-control" id="address" 
+                    placeholder="Enter address" name="address" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div class="from-group">
+                    <label for="nok">Next of kin:</label>
+                    <input type="text" class="form-control" id="nok" 
+                    placeholder="Enter next of kin full name" name="nok" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div class="form-group">
+                    <label for="relationship">Relationship with next of kin</label>
+                    <input type="text" class="form-control" id="relationship"
+                    placeholder="Relationsip" name="relationship" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div class="form-group">
+                    <label for="nok-cell">Next of kin cellnumber :</label>
+                    <input type="tel" class="form-control" id="nok-cell"
+                    placeholder="Cell number" name="nok-cell" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <div class="form-group">
+                    <label for="nok-email">Next of kin email :</label>
+                    <input type="email" class="form-control" id="nok-email"
+                    placeholder="example@email.com" name="nok-email" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                </div>
+                <button class="btn btn-primary" type="submit">Save</button>
+            </form>
+        </div>
+    </body>
+</html>

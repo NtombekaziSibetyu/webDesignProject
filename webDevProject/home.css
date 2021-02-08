@@ -1,4 +1,12 @@
 * {box-sizing:border-box}
+body{
+  margin: 20px;
+  padding: 15px;
+}
+.h.p{
+  margin: 20px;
+  padding: 15px;
+}
 /*navbar styles*/
 .navbar {
     margin: 0;
@@ -39,7 +47,7 @@
     position: relative;
     margin: auto;
     left: 40%;
-    
+    width: 100%;
   }
   
 
@@ -95,16 +103,18 @@
     background-color: #717171;
   }
   
-.footer {
+  .footer {
+    margin-bottom: 0;
+    padding: 3px;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     background: #9984D9;
 }
 .footer i{
-  justify-content: space-between;
-  align-items: center;
-  float: inline-end;
+    padding: 5px;
+    align-items: center;
+    float: inline-end;
 }
   
   
